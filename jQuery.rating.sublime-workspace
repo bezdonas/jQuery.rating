@@ -1,0 +1,351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 4245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jquery.rating.js",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jpl",
+				"Snippet: jquery plugin"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippetpl",
+				"Snippet: jquery plugin"
+			],
+			[
+				"snippet",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: jquery plugin"
+			],
+			[
+				"snippet ",
+				"Snippet: setTimeout function"
+			],
+			[
+				"syntaxjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"snipp",
+				"Snippet: jquery_Plugin(..)"
+			],
+			[
+				"snippe",
+				"Snippet: jquery_Plugin(..)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Long Tag"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"syntacss",
+				"Set Syntax: CSS"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instpa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Ramil/Work/github/jQuery.rating/jquery-1.10.1.min.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/JavaScript/for-()-{}.sublime-snippet",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/JavaScript/function-(fun).sublime-snippet",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/sublime-snipets.sublime-snippet",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/sublime-snipets.sublime-settings",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/sublime-patterns.sublime-settings",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Ramil/AppData/Roaming/Sublime Text 2/Packages/User/Autoprefixer.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"tabTrigger>",
+			"<tabTrigger>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 4245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "jquery.rating.js",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
