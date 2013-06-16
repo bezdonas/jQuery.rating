@@ -2,7 +2,6 @@
 	position: relative;
 	display: block;
 	height: 16px;
-	margin-bottom: 10px;
 	-webkit-transition: opacity .2s;
 	-o-transition: opacity .2s;
 	transition: opacity .2s;
@@ -11,10 +10,18 @@
 		opacity: .5;
 	}
 
+	.nojs .b-rating {
+		height: auto;
+	}
+
 .b-rating_radio,
 .b-rating_submit {
 	display: none;
 }
+	.nojs .b-rating_radio,
+	.nojs .b-rating_submit {
+		display: inline;
+	}
 
 .b-rating_label {
 	float: left;
@@ -25,6 +32,7 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	cursor: pointer;
+	font-size: 0;
 }
 	.b-rating_label__active {
 		/* active-star.png */
@@ -34,3 +42,14 @@
 		cursor: default;
 		pointer-events: none;
 	}
+	.nojs .b-rating_label {
+		width: auto;
+		height: auto;
+		float: none;
+		background: none;
+	}
+
+.b-rating_output {
+	font: 11px/1.5 sans-serif;
+	clear: left;
+}

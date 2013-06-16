@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="nojs">
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Rating plugin</title>
@@ -10,25 +10,39 @@
 	<form action="" class="b-rating" id="form-rating">
 		
 		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="1" id="form-rating_1">
-		<label class="b-rating_label" for="form-rating_1"></label>
+		<label class="b-rating_label" for="form-rating_1">Poor</label>
 
 		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="2" id="form-rating_2">
-		<label class="b-rating_label" for="form-rating_2"></label>
+		<label class="b-rating_label" for="form-rating_2">Very bad</label>
 
 		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="3" id="form-rating_3" checked="checked">
-		<label class="b-rating_label" for="form-rating_3"></label>
+		<label class="b-rating_label" for="form-rating_3">So so...</label>
 
 		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="4" id="form-rating_4">
-		<label class="b-rating_label" for="form-rating_4"></label>
+		<label class="b-rating_label" for="form-rating_4">Good</label>
 
 		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="5" id="form-rating_5">
-		<label class="b-rating_label" for="form-rating_5"></label>
+		<label class="b-rating_label" for="form-rating_5">Awesome</label>
 
-		<input type="submit" class="b-rating_submit" value="Оценить">
+		<input type="submit" class="b-rating_submit" value="Rate it">
+
+		<div class="b-rating_output"></div>
 
 	</form>
 	
 	<script src="./js/jquery-1.10.1.min.js"></script>
 	<script src="./js/jquery.rating.js"></script>
+	<script>
+		$('html').removeClass('nojs');
+
+		$('#form-rating').rating({
+			activeClass: 'b-rating_label__active',
+			animeClass: 'b-rating__animated',
+			lockClass: 'b-rating__locked',
+			outputSelector: '.b-rating_output',
+			output: true,
+			send: true
+		});
+	</script>
 </body>
 </html>

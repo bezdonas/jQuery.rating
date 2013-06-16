@@ -10,16 +10,30 @@
 				input = $($('input'), cont),
 				label = $($('label'), cont),
 				startActive = label.filter('[for="' + input.filter(':checked').attr('id') + '"]'),
-				userActive = false;
+				userActive = false,
+				el;
 
 			activateStar(startActive);
 
 			label
+				.each(function() {
+					el = $(this);
+					el
+						.data('text', el.text())
+						.text('');
+				})
 				.on('mouseover.rating', cont, function() {
 					activateStar($(this));
+					if (o.output) {
+						$(o.outputSelector, cont).text($(this).data('text'));
+					}
 				})
 				.on('mouseleave.rating', cont, function() {
-					activateStar(userActive ? userActive : startActive);
+					var el = userActive ? userActive : startActive;
+					activateStar(el);
+					if (o.output) {
+						$(o.outputSelector, cont).text('');
+					}
 				})
 				.on('click.rating', cont, function() {
 					userActive = $(this);
@@ -29,6 +43,9 @@
 					}
 					if (o.lockAfterRated) {
 						lockCont();
+					}
+					if (o.callback) {
+						o.callback.call();
 					}
 				});
 
@@ -79,17 +96,17 @@
 		animeClass: 'animated',
 		animeDuration: 200,
 
+		output: false,
+		outputSelector: '.output',
+
 		lockAfterRated: false,
 		lockClass: 'locked',
 
+		send: false,
 		sendUrl: '.',
-		sendMethod: 'get'
+		sendMethod: 'get',
+
+		callback: function() {}
 	};
 
 }(jQuery));
-
-$('#form-rating').rating({
-	activeClass: 'b-rating_label__active',
-	animeClass: 'b-rating__animated',
-	lockClass: 'b-rating__locked'
-});
