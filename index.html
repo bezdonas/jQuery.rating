@@ -3,21 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Rating plugin</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-	<form action="" class="b-rating b-rating__1 js-rating"></form>
+	<form action="" class="b-rating" id="form-rating">
+		
+		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="1" id="form-rating_1">
+		<label class="b-rating_label" for="form-rating_1"></label>
 
-	<form action="" class="b-rating b-rating__2 js-rating"></form>
+		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="2" id="form-rating_2">
+		<label class="b-rating_label" for="form-rating_2"></label>
 
-	<form action="" class="b-rating b-rating__3 js-rating"></form>
+		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="3" id="form-rating_3" checked="checked">
+		<label class="b-rating_label" for="form-rating_3"></label>
 
-	<form action="" class="b-rating b-rating__4 js-rating"></form>
+		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="4" id="form-rating_4">
+		<label class="b-rating_label" for="form-rating_4"></label>
 
-	<form action="" class="b-rating b-rating__5 js-rating"></form>
+		<input class="b-rating_radio" type="radio" name="form-rating_radio" value="5" id="form-rating_5">
+		<label class="b-rating_label" for="form-rating_5"></label>
+
+		<input type="submit" class="b-rating_submit" value="Оценить">
+
+	</form>
 	
-	<script src="jquery-1.10.1.min.js"></script>
-	<script src="jquery.rating.js"></script>
+	<script src="./js/jquery-1.10.1.min.js"></script>
+	<script src="./js/jquery.rating.js"></script>
 </body>
 </html>
