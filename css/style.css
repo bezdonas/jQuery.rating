@@ -47,6 +47,7 @@
 		height: auto;
 		float: none;
 		background: none;
+		font-size: inherit;
 	}
 
 .b-rating_output {

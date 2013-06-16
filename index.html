@@ -41,7 +41,11 @@
 			lockClass: 'b-rating__locked',
 			outputSelector: '.b-rating_output',
 			output: true,
-			send: true
+			send: true,
+			sendUrl: './index.html',
+			callback: function() {
+				console.log('You rated this as ' + $(this).data('text'));
+			}
 		});
 	</script>
 </body>

@@ -45,7 +45,7 @@
 						lockCont();
 					}
 					if (o.callback) {
-						o.callback.call();
+						o.callback.call($(this));
 					}
 				});
 
@@ -106,7 +106,9 @@
 		sendUrl: '.',
 		sendMethod: 'get',
 
-		callback: function() {}
+		callback: function() {
+			// $(this) is currently active label
+		}
 	};
 
 }(jQuery));
