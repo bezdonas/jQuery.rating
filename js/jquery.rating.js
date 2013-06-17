@@ -7,8 +7,8 @@
 		return this.each(function() {
 
 			var cont = $(this),
-				input = $($('input'), cont),
-				label = $($('label'), cont),
+				input = $('input', cont),
+				label = $('label', cont),
 				startActive = label.filter('[for="' + input.filter(':checked').attr('id') + '"]'),
 				userActive = false,
 				el;
